@@ -1,0 +1,37 @@
+:root {
+    --main-back-color: #eee6d9;
+    --main-font-color: #c69986;
+}
+@font-face {
+    font-family: 'noto';
+    src: url('./font/NotoSerifKR-Light.otf') format('truetype');
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+body {
+    font-family: 'noto';
+    background-color: var(--main-back-color)
+}
+
+/* 헤더 */
+.header {
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.header .mainLogo .logo {
+    width: 50px;
+}
+.header .mainLogo .font {
+    width: 200px;
+}
+.header .mainBtn a{
+    font-size: 20px;
+    margin-left: 50px;
+}
